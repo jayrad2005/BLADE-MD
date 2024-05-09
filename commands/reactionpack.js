@@ -31,10 +31,10 @@
                     let users = citel.mentionedJid ? citel.mentionedJid[0] : citel.msg.contextInfo.participant || false;
                     let gif = await GIFBufferToVideoBuffer(buffer);
                     if (users) {
-                        let cap = `@${citel.sender.split("@")[0]} bitten to @${users.split("@")[0]} `;
+                        let cap = `@${citel.sender.split("@")[0]} bit @${users.split("@")[0]}.. Don't you think this nigga deserves to be in a zoo?? I mean.. biting someone, you're an animal yeah? `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [users, citel.sender], caption: cap }, { quoted: citel });
                     } else {
-                        let cap = `@${citel.sender.split("@")[0]} bitten to everyone. `;
+                        let cap = `@${citel.sender.split("@")[0]} bit everyone.. Okayy.. the biter must be having mental issues... `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [citel.sender], caption: cap }, { quoted: citel });
                     }
                 }
@@ -55,10 +55,10 @@
                     let users = citel.mentionedJid ? citel.mentionedJid[0] : citel.msg.contextInfo.participant || false;
                     let gif = await GIFBufferToVideoBuffer(buffer);
                     if (users) {
-                        let cap = `@${citel.sender.split("@")[0]} blushed to @${users.split("@")[0]} `;
+                        let cap = `@${citel.sender.split("@")[0]} blushed at @${users.split("@")[0]}.. Hmm doings everywhere `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [users, citel.sender], caption: cap }, { quoted: citel });
                     } else {
-                        let cap = `@${citel.sender.split("@")[0]} blushed to everyone. `;
+                        let cap = `@${citel.sender.split("@")[0]} blushed at everyone. `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [citel.sender], caption: cap }, { quoted: citel });
                     }
                 }
@@ -79,10 +79,10 @@
                     let users = citel.mentionedJid ? citel.mentionedJid[0] : citel.msg.contextInfo.participant || false;
                     let gif = await GIFBufferToVideoBuffer(buffer);
                     if (users) {
-                        let cap = `@${citel.sender.split("@")[0]} punched to @${users.split("@")[0]} `;
+                        let cap = `@${citel.sender.split("@")[0]} punched @${users.split("@")[0]} in a fit of rage... `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [users, citel.sender], caption: cap }, { quoted: citel });
                     } else {
-                        let cap = `@${citel.sender.split("@")[0]} punched everyone. `;
+                        let cap = `@${citel.sender.split("@")[0]} punched everyone. Shey una want make I tell una wetin una go do... Start the VAWULENCE joor..! `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [citel.sender], caption: cap }, { quoted: citel });
                     }
                 }
@@ -103,10 +103,10 @@
                     let users = citel.mentionedJid ? citel.mentionedJid[0] : citel.msg.contextInfo.participant || false;
                     let gif = await GIFBufferToVideoBuffer(buffer);
                     if (users) {
-                        let cap = `@${citel.sender.split("@")[0]} patted with @${users.split("@")[0]} `;
+                        let cap = `@${citel.sender.split("@")[0]} patted @${users.split("@")[0]} `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [users, citel.sender], caption: cap }, { quoted: citel });
                     } else {
-                        let cap = `@${citel.sender.split("@")[0]} patted with everyone. `;
+                        let cap = `@${citel.sender.split("@")[0]} patted everyone. `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [citel.sender], caption: cap }, { quoted: citel });
                     }
                 }
@@ -127,10 +127,10 @@
                     let users = citel.mentionedJid ? citel.mentionedJid[0] : citel.msg.contextInfo.participant || false;
                     let gif = await GIFBufferToVideoBuffer(buffer);
                     if (users) {
-                        let cap = `@${citel.sender.split("@")[0]} kissed to @${users.split("@")[0]} `;
+                        let cap = `@${citel.sender.split("@")[0]} kissed @${users.split("@")[0]} Omo... `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [users, citel.sender], caption: cap }, { quoted: citel });
                     } else {
-                        let cap = `@${citel.sender.split("@")[0]} kissed with everyone. `;
+                        let cap = `@${citel.sender.split("@")[0]} kissed with everyone which is so gayish.. DAMN..! `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [citel.sender], caption: cap }, { quoted: citel });
                     }
                 }
@@ -150,10 +150,10 @@
                     let users = citel.mentionedJid ? citel.mentionedJid[0] : citel.msg.contextInfo.participant || false;
                     let gif = await GIFBufferToVideoBuffer(buffer);
                     if (users) {
-                        let cap = `@${citel.sender.split("@")[0]} killed @${users.split("@")[0]}. `;
+                        let cap = `@${citel.sender.split("@")[0]} killed @${users.split("@")[0]}. Moment of silence... Haha just kidding..! `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [users, citel.sender], caption: cap }, { quoted: citel });
                     } else {
-                        let cap = `@${citel.sender.split("@")[0]} killed everyone over here. `;
+                        let cap = `@${citel.sender.split("@")[0]} killed everyone over here. What a MASSACRE!!! `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [citel.sender], caption: cap }, { quoted: citel });
                     }
                 }
@@ -173,10 +173,10 @@
                     let users = citel.mentionedJid ? citel.mentionedJid[0] : citel.msg.contextInfo.participant || false;
                     let gif = await GIFBufferToVideoBuffer(buffer);
                     if (users) {
-                        let cap = `@${citel.sender.split("@")[0]} felt happy with @${users.split("@")[0]} `;
+                        let cap = `@${citel.sender.split("@")[0]} is happy with @${users.split("@")[0]} `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [users, citel.sender], caption: cap }, { quoted: citel });
                     } else {
-                        let cap = `@${citel.sender.split("@")[0]} felt happy with everyone. `;
+                        let cap = `@${citel.sender.split("@")[0]} is happy with everyone. `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [citel.sender], caption: cap }, { quoted: citel });
                     }
                 }
@@ -221,10 +221,10 @@
                     let users = citel.mentionedJid ? citel.mentionedJid[0] : citel.msg.contextInfo.participant || false;
                     let gif = await GIFBufferToVideoBuffer(buffer);
                     if (users) {
-                        let cap = `@${citel.sender.split("@")[0]} yeeted to @${users.split("@")[0]} `;
+                        let cap = `@${citel.sender.split("@")[0]} yeeted @${users.split("@")[0]} `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [users, citel.sender], caption: cap }, { quoted: citel });
                     } else {
-                        let cap = `@${citel.sender.split("@")[0]} yeeted with everyone. `;
+                        let cap = `@${citel.sender.split("@")[0]} yeeted everyone. `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [citel.sender], caption: cap }, { quoted: citel });
                     }
                 }
@@ -245,10 +245,10 @@
                     let users = citel.mentionedJid ? citel.mentionedJid[0] : citel.msg.contextInfo.participant || false;
                     let gif = await GIFBufferToVideoBuffer(buffer);
                     if (users) {
-                        let cap = `@${citel.sender.split("@")[0]} winked with @${users.split("@")[0]} `;
+                        let cap = `@${citel.sender.split("@")[0]} winked at @${users.split("@")[0]} in a sexy manner hehe..! `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [users, citel.sender], caption: cap }, { quoted: citel });
                     } else {
-                        let cap = `@${citel.sender.split("@")[0]} winked with everyone. `;
+                        let cap = `@${citel.sender.split("@")[0]} winked at everyone. `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [citel.sender], caption: cap }, { quoted: citel });
                     }
                 }
@@ -269,10 +269,10 @@
                     let users = citel.mentionedJid ? citel.mentionedJid[0] : citel.msg.contextInfo.participant || false;
                     let gif = await GIFBufferToVideoBuffer(buffer);
                     if (users) {
-                        let cap = `@${citel.sender.split("@")[0]} slapped @${users.split("@")[0]} `;
+                        let cap = `@${citel.sender.split("@")[0]} slapped the IDIOT @${users.split("@")[0]} `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [users, citel.sender], caption: cap }, { quoted: citel });
                     } else {
-                        let cap = `@${citel.sender.split("@")[0]} slapped to everyone. `;
+                        let cap = `@${citel.sender.split("@")[0]} slapped every madafaka in here haha!!. `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [citel.sender], caption: cap }, { quoted: citel });
                     }
                 }
@@ -292,10 +292,10 @@
                     let users = citel.mentionedJid ? citel.mentionedJid[0] : citel.msg.contextInfo.participant || false;
                     let gif = await GIFBufferToVideoBuffer(buffer);
                     if (users) {
-                        let cap = `@${citel.sender.split("@")[0]} bonked to @${users.split("@")[0]} `;
+                        let cap = `@${citel.sender.split("@")[0]} bonked this WEREY @${users.split("@")[0]} `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [users, citel.sender], caption: cap }, { quoted: citel });
                     } else {
-                        let cap = `@${citel.sender.split("@")[0]} bonked to everyone. `;
+                        let cap = `@${citel.sender.split("@")[0]} bonked everyone. `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [citel.sender], caption: cap }, { quoted: citel });
                     }
                 }
@@ -316,10 +316,10 @@
                     let users = citel.mentionedJid ? citel.mentionedJid[0] : citel.msg.contextInfo.participant || false;
                     let gif = await GIFBufferToVideoBuffer(buffer);
                     if (users) {
-                        let cap = `@${citel.sender.split("@")[0]} bullied to @${users.split("@")[0]} `;
+                        let cap = `@${citel.sender.split("@")[0]} bullied WEAKLING @${users.split("@")[0]} `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [users, citel.sender], caption: cap }, { quoted: citel });
                     } else {
-                        let cap = `@${citel.sender.split("@")[0]} bullied to everyone. `;
+                        let cap = `@${citel.sender.split("@")[0]} bullied everyone.. C'mon, every one of you shithead gonna let that slide?? `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [citel.sender], caption: cap }, { quoted: citel });
                     }
                 }
@@ -343,7 +343,7 @@
                         let cap = `@${citel.sender.split("@")[0]} cringed at @${users.split("@")[0]} `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [users, citel.sender], caption: cap }, { quoted: citel });
                     } else {
-                        let cap = `@${citel.sender.split("@")[0]} cringed with everyone. `;
+                        let cap = `@${citel.sender.split("@")[0]} cringed at everyone. `;
                         Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [citel.sender], caption: cap }, { quoted: citel });
                     }
                 }
@@ -364,10 +364,10 @@
                 let users = citel.mentionedJid ? citel.mentionedJid[0] : citel.msg.contextInfo.participant || false;
                 let gif = await GIFBufferToVideoBuffer(buffer);
                 if (users) {
-                    let cap = `@${citel.sender.split("@")[0]} cuddled with @${users.split("@")[0]} `;
+                    let cap = `@${citel.sender.split("@")[0]} romantically cuddled with @${users.split("@")[0]} `;
                     Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [users, citel.sender], caption: cap }, { quoted: citel });
                 } else {
-                    let cap = `@${citel.sender.split("@")[0]} cuddled with everyone. `;
+                    let cap = `@${citel.sender.split("@")[0]} cuddled with everyone.. Okkaayyyyy!! `;
                     Void.sendMessage(citel.chat, { video: gif, gifPlayback: true, mentions: [citel.sender], caption: cap }, { quoted: citel });
                 }
             }
